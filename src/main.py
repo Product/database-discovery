@@ -4,6 +4,7 @@ import dotenv
 import os
 from mysql.connector import errorcode
 
+#load .env file
 dotenv.load_dotenv(dotenv.find_dotenv())
 
 # connection to mysql
@@ -20,4 +21,5 @@ except mysql.connector.Error as err:
     else:
         print(err)
 
+# close mysql connection
 cnx.close()

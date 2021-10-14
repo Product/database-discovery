@@ -1,5 +1,5 @@
 # database-discovery
-A simple project to discovery sensitive and personal data
+A simple project to discovery sensitive and personal data.
 
 ## ⚡️ Installation
 ```sh
