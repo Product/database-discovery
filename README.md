@@ -1,12 +1,16 @@
 # database-discovery
 A simple project to discovery sensitive and personal data
 
-## ⚡️ Packages
-### MYSQL connector
+## ⚡️ Installation
+```sh
+python -m pip install -r requirements.txt
+```
+## ⚡️ Used Packages
+### Mysql connector
 ```sh
 pip install mysql.connector
 ```
 ### SQLITE3
 ```sh
-pip install sqlite3
+pip install pysqlite3
 ```
