@@ -29,4 +29,5 @@ class MysqlDriver:
             else:
                 print(err)
                 exit()
-        return cnx
+        return True
+
