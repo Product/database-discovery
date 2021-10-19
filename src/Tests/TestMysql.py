@@ -1,4 +1,3 @@
-import unittest
 from src.Classes.Mysql import MysqlDriver
 from unittest import TestCase, main
 
