@@ -58,6 +58,16 @@ class Sqlite:
                        'term VARCHAR (500) '
                        ');')
 
+        # table: configs
+        engine.execute('CREATE TABLE IF NOT EXISTS "configs" ('
+                       'id integer PRIMARY KEY AUTOINCREMENT,'
+                       'param VARCHAR (100), '
+                       'param_valor VARCHAR (500), '
+                       'param_system VARCHAR (500), '
+                       'start_date DATE, '
+                       'end_date DATE '
+                       ');')
+
         # table: base
         engine.execute('CREATE TABLE IF NOT EXISTS "base" ('                       
                        'id integer PRIMARY KEY AUTOINCREMENT,'
