@@ -8,7 +8,7 @@ on:
 
 jobs:
   auto-pull-request:
-    name: CreatePullRequest
+    name: create_pull_request
     runs-on: ubuntu-latest
     steps:
 #      - uses: actions/checkout@v2
