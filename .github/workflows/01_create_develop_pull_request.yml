@@ -1,4 +1,4 @@
-name: create_pull_request
+name: create_develop_pull_request
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   auto-pull-request:
-    name: create_pull_request
+    name: create_develop_pull_request
     runs-on: ubuntu-latest
     steps:
 #      - uses: actions/checkout@v2
