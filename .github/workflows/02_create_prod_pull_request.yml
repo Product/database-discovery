@@ -1,4 +1,4 @@
-name: create_prod_pull_request
+name: Create Prod Release
 
 on:
   push:
@@ -7,14 +7,14 @@ on:
 
 jobs:
   auto-pull-request:
-    name: create_prod_pull_request
+    name: CreatePullRequest
     runs-on: ubuntu-latest
     steps:
       - name: pull-request-action
         uses: vsoch/pull-request-action@1.0.18
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PULL_REQUEST_BRANCH: "master"
+          PULL_REQUEST_BRANCH: "main"
           PULL_REQUEST_TITLE: Production Release
           PULL_REQUEST_BODY: |
             # Production Release
