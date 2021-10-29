@@ -5,6 +5,7 @@ on:
     branches-ignore:
       - master
       - develop
+      - main
 
 jobs:
   auto-pull-request:
